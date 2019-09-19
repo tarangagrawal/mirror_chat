@@ -58,8 +58,8 @@ class Home extends Component {
 
 	render() {
 		return (
-			<div className="chatbot" style={{position:'relative',borderColor:'1px solid red',height:'500px',margin:'100px auto 0 auto',border:'3px solid #212529',padding:'0px 0px 0px 0px'}}>
-			<div style={{position:'relative',borderColor:'1px solid red',width: '100%'}}>
+			<div className="chatbot" style={{position:'relative',borderColor:'1px solid #ff0000',height:'500px',margin:'100px auto 0 auto',border:'3px solid #212529',padding:'0px 0px 0px 0px'}}>
+			<div style={{position:'relative',borderColor:'1px solid #ff0000',width: '100%'}}>
 			  <div style={{width: '100%', height: '500px',overflow:'hidden',overflowY:'scroll',paddingBottom:'100px'}}>
 			  <div style={{position:'absolute',left:'0',right:'0',top:'0'}}>
 			  	<Navbar bg="dark" variant="dark" style={{position: 'sticky', bottom: '0px'}}>
