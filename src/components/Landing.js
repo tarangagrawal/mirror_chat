@@ -25,8 +25,8 @@ class Landing extends Component {
 		const {error} = this.state;
 		return (
 			  <div style={{width: '100%'}}>
-			  	<div style={{width: '30%', margin: 'auto', textAlign: 'center', fontWeight: 'bold', marginTop: '5%'}}><h3>MIRROR CHAT</h3></div>
-			  	<Form style={{width: '30%', margin: 'auto', marginTop: '10%'}}>
+			  	<div style={{width: '50%', margin: 'auto', textAlign: 'center', fontWeight: 'bold', marginTop: '5%'}}><h3>MIRROR CHAT</h3></div>
+			  	<Form style={{width: '50%', margin: 'auto', marginTop: '10%'}}>
 				  <Form.Group controlId="formBasicEmail">
 				    <Form.Label>Username</Form.Label>
 				    <Form.Control type="email" placeholder="Enter email" onChange={(e) => this.setState({username: e.target.value})} />
