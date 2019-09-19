@@ -1,0 +1,12 @@
+
+@media(max-width: 480px){
+.chatbot{
+	width: 98%!important;
+}
+}
+
+@media(min-width: 481px){
+.chatbot{
+width: 400px 
+}
+}
